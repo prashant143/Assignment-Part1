@@ -17,5 +17,8 @@ router.get('/skills', function(req, res, next) {
 router.get('/portfolio', function(req, res, next) {
   res.render('portfolio', { title: 'Portfolio - Prahshant Vaghela' });
 });
+router.get('/contact', function(req, res, next) {
+  res.render('contact', { title: 'Contact - Prahshant Vaghela' });
+});
 
 module.exports = router;
