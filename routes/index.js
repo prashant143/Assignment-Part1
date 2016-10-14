@@ -6,7 +6,7 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Prahshant Vaghela' });
 });
 router.get('/education', function(req, res, next) {
-  res.render('Education', { title: 'Education - Prahshant Vaghela' });
+  res.render('education', { title: 'Education - Prahshant Vaghela' });
 });
 router.get('/work', function(req, res, next) {
   res.render('work', { title: 'Work - Prahshant Vaghela' });
